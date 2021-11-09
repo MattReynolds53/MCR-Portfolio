@@ -42,7 +42,7 @@ a {
 }
 
 .bakground-image {
-    display: inline;
+    display: inline; /* How can I get the image centered and full width and heighth to separate header from body cards? */
 }
 
 #picture1 {
@@ -65,7 +65,15 @@ a {
 }
 
 .card-header {
-
+    border-style: double;
+    border-color: coral;
+    margin-top: -20px;
+    display: flex;
+    position: absolute; /* Is position necessary here? */
+    justify-content: center; /* Why can't i get these items centered? */
+    align-items: center; /* why is this item still in the stretch positioning? */
+    max-width: 50px;
+    background-color: white;
 }
 
 #GitHub-Link {
