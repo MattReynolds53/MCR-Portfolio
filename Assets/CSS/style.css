@@ -3,7 +3,7 @@
 }
 
 *{
-    font-family: serif;
+    font-family: sans-serif;
     font-size: 18px;
 }
 
@@ -41,42 +41,47 @@ a {
     text-decoration: none;
 }
 
-.bakground-image {
-    display: inline; /* How can I get the image centered and full width and heighth to separate header from body cards? */
+.background-image {
+    display: inline; 
 }
 
 #picture1 {
-    
+    width: 98.22vw;
 }
 
 .card-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
 }
 
 .full-card {
-    border-style:groove;
+    border-style:solid;
     border-radius: 10px;
     border-color: rgb(253, 130, 130);
     padding: 5px;
-    max-width: 400px;
+    /* min-height: 20%; */ 
+    max-width: 80%;
     margin-top: 20px;
+    justify-content: center;
 }
 
 .card-header {
-    border-style: double;
+    border-style: solid;
+    border-radius: 10px;
     border-color: coral;
-    margin-top: -20px;
+    padding: 6px;
+    margin-top: -25px;
     display: flex;
     position: absolute; /* Is position necessary here? */
     justify-content: center; /* Why can't i get these items centered? */
     align-items: center; /* why is this item still in the stretch positioning? */
-    max-width: 50px;
+    /* max-width: 50px; */
     background-color: white;
 }
 
-#GitHub-Link {
+#hw1-link {
     color: coral;
     font-size: 18px;
 }
