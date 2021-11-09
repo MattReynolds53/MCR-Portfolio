@@ -4,6 +4,7 @@
 
 *{
     font-family: serif;
+    font-size: 18px;
 }
 
 header {
@@ -40,6 +41,11 @@ a {
     text-decoration: none;
 }
 
+#bakground-image {
+    display: block;
+    justify-content: center;
+}
+
 .card-box {
     display: flex;
     flex-wrap: wrap;
@@ -61,4 +67,5 @@ a {
 
 #GitHub-Link {
     color: coral;
+    font-size: 18px;
 }
