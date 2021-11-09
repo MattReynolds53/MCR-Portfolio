@@ -41,9 +41,12 @@ a {
     text-decoration: none;
 }
 
-#bakground-image {
-    display: block;
-    justify-content: center;
+.bakground-image {
+    display: inline;
+}
+
+#picture1 {
+    
 }
 
 .card-box {
