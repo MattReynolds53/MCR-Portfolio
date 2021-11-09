@@ -1,0 +1,64 @@
+:root {
+
+}
+
+*{
+    font-family: serif;
+}
+
+header {
+    background-color: rgb(253, 130, 130);
+    position: relative;
+    height: 130px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 44px;
+    color: white;
+}
+
+.header-tabs {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    position: relative;
+}
+
+#tabs {
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10%;
+    align-items: flex-end;
+}
+
+a {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.card-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.full-card {
+    border-style:groove;
+    border-radius: 10px;
+    border-color: rgb(253, 130, 130);
+    padding: 5px;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.card-header {
+
+}
+
+#GitHub-Link {
+    color: coral;
+}
