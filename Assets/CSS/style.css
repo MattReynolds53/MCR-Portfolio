@@ -23,8 +23,8 @@ h1 {
 #portfolioHeadshot {
     display: block;
     margin: 0 auto;
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 15%;
+    max-height: 15%;
     border-radius: 100%;
 }
 
@@ -106,3 +106,21 @@ a {
     margin: 0 auto;
     /* max-height: 10%; */
 }
+
+@media screen and (max-width: 992px) {
+     h1 {
+        font-size: 50px;
+     }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
