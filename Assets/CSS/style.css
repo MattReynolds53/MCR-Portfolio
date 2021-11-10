@@ -72,10 +72,6 @@ p {
 .background-image {
     display: inline; 
 }
-/* 
-#picture1 {
-    width: 98.22vw;
-} */
 
 .card-box {
     display: flex;
@@ -89,7 +85,6 @@ p {
     border-radius: 10px;
     border-color: var(--secondary);
     padding: 5px;
-    /* min-height: 20%; */ 
     max-width: 80%;
     margin-top: 20px;
     justify-content: center;
@@ -98,21 +93,7 @@ p {
 
 .card-header {
     font-size: 38px;
-    /* border-style: solid;
-    border-radius: 10px;
-    border-color: coral;
-    padding: 6px;
-    margin-top: -25px;
-    display: flex;
-    position: absolute; /* Is position necessary here? */
-    /* justify-content: center; /* Why can't i get these items centered? */
-    /* align-items: center; why is this item still in the stretch positioning? */
-    /* max-width: 50px; */ 
-    /* background-color: white; */
-}
 
-.card-body {
-    
 }
 
 #hw1-link {
@@ -124,7 +105,11 @@ p {
     display: block;
     max-width: 50%;
     margin: 0 auto;
-    /* max-height: 10%; */
+}
+
+h6 {
+    color: white;
+    text-align: center;
 }
 
 @media screen and (max-width: 992px) {
