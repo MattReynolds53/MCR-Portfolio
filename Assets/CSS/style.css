@@ -1,14 +1,15 @@
 :root {
-
+    --secondary: rgb(253, 130, 130);
 }
 
 *{
     font-family: sans-serif;
     font-size: 18px;
+    background-color: rgb(36, 36, 36);
 }
 
 header {
-    background-color: rgb(253, 130, 130);
+    background-color: var(--secondary);
     position: relative;
     height: 20%;
 }
@@ -16,7 +17,8 @@ header {
 h1 {
     display: flex;
     justify-content: center;
-    font-size: 70px;
+    font-size: 90px;
+    background-color: var(--secondary);
     color: white;
 }
 
@@ -43,10 +45,26 @@ h1 {
     align-items: flex-end;
 }
 
+#navBarTabs:hover {
+    text-decoration: underline;
+}
+
 a {
-    font-size: 22px;
+    font-size: 30px;
     color: white;
     text-decoration: none;
+}
+
+a:hover {
+    background-color: var(--secondary);
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
 }
 
 .background-image {
@@ -67,7 +85,7 @@ a {
 .full-card {
     border-style:solid;
     border-radius: 10px;
-    border-color: rgb(253, 130, 130);
+    border-color: var(--secondary);
     padding: 5px;
     /* min-height: 20%; */ 
     max-width: 80%;
@@ -96,7 +114,7 @@ a {
 }
 
 #hw1-link {
-    color: coral;
+    color: var(--secondary);
     font-size: 18px;
 }
 
@@ -109,18 +127,21 @@ a {
 
 @media screen and (max-width: 992px) {
      h1 {
-        font-size: 50px;
+        font-size: 60px;
      }
+     a {
+        font-size: 95%;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
+    a {
+        font-size: 90%;
     }
   }
   
   @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
+    a {
+        font-size: 85%;
     }
   }
