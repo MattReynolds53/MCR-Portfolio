@@ -56,7 +56,9 @@ a {
 }
 
 a:hover {
-    background-color: var(--secondary);
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: white;
 }
 
 h2 {
