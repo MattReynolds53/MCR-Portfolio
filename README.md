@@ -8,7 +8,7 @@ This repository serves to display our Unit 2 Homework and portfolio website. You
 
 ## Updated Portfolio November 29, 2021
 ```
-For this updateed portfolio assignment, I kept the webpage mostly the same to minimize the possibility for bugs. In the header, I added icons the are linked to my LinkedIn Profile page and Resume pages, respectively. I chose icons to best reflect the webpage it represents to aim for a minimialist look. Additionally, I added multiple links to the Work section to direct the user to the respective project's final product page or GitHub repository. 
+For this updated portfolio assignment, I kept the webpage mostly the same to minimize the possibility for bugs. In the header, I added icons the are linked to my LinkedIn Profile page and Resume pages. I chose icons to best reflect the webpage it represents to aim for a minimialist look. Additionally, I added multiple links to the Work section to direct the user to the respective project's final product page or GitHub repository. 
 ```
 
 Here is the link to my Git Repository: https://github.com/MattReynolds53/MCR-Portfolio
