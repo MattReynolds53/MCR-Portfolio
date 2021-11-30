@@ -30,6 +30,28 @@ h1 {
     border-radius: 100%;
 }
 
+.personalLinks {
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: center;
+}
+
+#linkedIn {
+    /* border-radius: 100%; */
+    background-color: var(--secondary);
+    padding: 10px;
+    /* display: flex;
+    margin: 0 auto; */
+}
+
+#resume {
+    /* border-radius: 100%; */
+    background-color: var(--secondary);
+    padding: 10px;
+    /* display: flex;
+    margin: 0 auto; */
+}
+
 .header-tabs {
     display: flex;
     justify-content: space-evenly;
@@ -93,7 +115,6 @@ p {
 
 .card-header {
     font-size: 38px;
-
 }
 
 #hw1-link {
