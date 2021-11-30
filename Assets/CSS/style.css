@@ -122,6 +122,10 @@ p {
     font-size: 18px;
 }
 
+.projectList {
+    list-style: none;
+}
+
 #homework1Screenshots {
     display: block;
     max-width: 50%;
