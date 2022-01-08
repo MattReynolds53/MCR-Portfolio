@@ -12,6 +12,7 @@ header {
     background-color: var(--secondary);
     position: relative;
     height: 20%;
+    padding-top: 100px;
 }
 
 h1 {
@@ -27,29 +28,29 @@ h1 {
     margin: 0 auto;
     max-width: 15%;
     max-height: 15%;
-    border-radius: 100%;
+    border-radius: 5%;
 }
 
 .personalLinks {
     background-color: var(--secondary);
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 #linkedIn {
-    /* border-radius: 100%; */
     background-color: var(--secondary);
     padding: 10px;
-    /* display: flex;
-    margin: 0 auto; */
 }
 
 #resume {
-    /* border-radius: 100%; */
     background-color: var(--secondary);
     padding: 10px;
-    /* display: flex;
-    margin: 0 auto; */
+}
+
+#gitHub {
+    background-color: var(--secondary);
+    padding: 10px;
 }
 
 .header-tabs {
