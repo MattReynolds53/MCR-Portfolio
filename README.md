@@ -25,7 +25,7 @@ Here is the link to the final product webpage: https://mattreynolds53.github.io/
 ![](./Assets/Images/Portfolio2/UpdatedPortfolio1.png)
 ![](./Assets/Images/Portfolio2/UpdatedPortfolio2.png)
 
-## Portfolio Version 3 (November 29, 2021):
+## Portfolio Version 3 (January 8, 2022):
 ![](./Assets/Images/Portfolio3/NewPortfolio1.png)
 ![](./Assets/Images/Portfolio3/NewPortfolio2.png)
 ![](./Assets/Images/Portfolio3/NewPortfolio3.png)
